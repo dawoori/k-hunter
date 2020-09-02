@@ -1,0 +1,22 @@
+{
+  "name": "k-hunter",
+  "version": "1.0.0",
+  "description": "국민대학교 수강신청 알림 Slack bot",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "puppeteer": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techinpark/today-devblog-bot.git"
+  },
+  "author": "dawoori",
+  "license": "MIT"
+}
