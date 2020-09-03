@@ -4,11 +4,12 @@ const axios = require("axios");
 const ID = process.env.ID;
 const PASSWD = process.env.PASSWD;
 const WEBHOOKS = process.env.WEBHOOKS;
+
 const LECTURE_CODE = ["058972", "015895", "132500"];
 const LECTURE_NAME = ["소프트웨어디자인패턴", "네트워크서비스프로토콜", "빅데이터플랫폼"];
 
 (async () => {
-    const browser = await puppeteer.launch({headless: true});
+    const browser = await puppeteer.launch({headless: false});
     const page = await browser.newPage();
 
     await page.goto('http://ktis.kookmin.ac.kr');
@@ -55,6 +56,5 @@ const LECTURE_NAME = ["소프트웨어디자인패턴", "네트워크서비스�
       
     }
 
-    await page.screenshot({path: 'example.png'});
     await browser.close();
   })();
