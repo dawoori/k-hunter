@@ -1,5 +1,6 @@
 # 국민대학교 수강신청 알리미 K-Hunter
 ![](./screenshot.png)
+
 수강신청을 원하는 과목이 열렸는지 Slack 채널로 알려드립니다.
 
 ## How to run
