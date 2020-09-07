@@ -5,7 +5,7 @@ name: Node.js CI
 
 on:
   schedule:
-    - cron: "*/5 1-8 * * 1-5"
+    - cron: "*/5 1-15 * * 1-5"
   push:
     branches: [ master ]
 
